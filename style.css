@@ -1,12 +1,16 @@
 *{
     font-family: Matte SC;
-    background-color: azure;
+    background-color:  rgb(175, 175, 175);
 
 }
 
+body {
+    background-color: rgb(150, 150, 150);
+
+}
 header {
   text-align: center;
-  background-color: solid gray;
+  background-color: darkcyan;
   border: 4px solid gray
 }
 
@@ -44,7 +48,8 @@ header {
    }
 
    .ultimoboto {
-    background-color: darkcyan;
+   border-radius: 6px;
+   font-size: 15px;
    }
 
    #resultado {
@@ -55,7 +60,11 @@ header {
    }
 
    .label {
-    background-color: rgb(230, 243, 243);
+    background-color: gray;
     border-radius: 3px;
     border: solid gray;
+   }
+
+   form {
+    background-color: darkcyan;
    }
